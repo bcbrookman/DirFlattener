@@ -44,7 +44,7 @@ photos/
 
 ## After
 ```
-$ python3 dirflatten.py photos
+$ python3 dirflatten.py photos/
 $ tree mydir/
 photos/
 ├── 2015
