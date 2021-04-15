@@ -1,10 +1,10 @@
 import argparse
-import shutil
 import os
+import shutil
 
 
 if __name__ == '__main__':
-	# Get the path form the sshell argument
+	# Get the path from the shell argument
 	parser = argparse.ArgumentParser()
 	parser.add_argument(dest='directory', help="The directory to flatten")
 	args = parser.parse_args()
